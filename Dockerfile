@@ -9,6 +9,3 @@ WORKDIR /code
 RUN mix local.hex --force
 
 RUN mix local.rebar --force
-
-RUN git clone https://github.com/ericmj/workshop.git
-

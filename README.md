@@ -4,7 +4,12 @@ The basis for this workshop Eric's one, used with many thanks. Please go ahead a
 
 https://github.com/ericmj/workshop
 
-1. `docker build . -t elixir_dojo`
-2. `docker run -it --rm elixir_dojo bash`
-3. `cd workshop && cd labX`
-4. `mix test`
+In your elixir-dojo directory:
+
+1. `git clone git@github.com:ericmj/workshop.git`
+2. `docker build . -t elixir_dojo`
+3. `docker run -it --rm -v $(PWD):/code elixir_dojo bash`
+4. `cd workshop && cd labX`
+5. `mix test`
+
+You should be able to work in your local root/workshop dir using your favourite editor.
