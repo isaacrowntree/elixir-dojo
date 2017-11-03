@@ -6,10 +6,12 @@ https://github.com/ericmj/workshop
 
 In your elixir-dojo directory:
 
-1. `git clone git@github.com:ericmj/workshop.git`
-2. `docker build . -t elixir_dojo`
-3. `docker run -it --rm -v $(PWD):/code elixir_dojo bash`
-4. `cd workshop && cd labX`
-5. `mix test`
+1. `git clone git@github.com:isaacrowntree/elixir-dojo.git`
+2. `cd elixir-dojo`
+3. `git clone git@github.com:ericmj/workshop.git`
+4. `docker build . -t elixir_dojo`
+5. `docker run -it --rm -v $(PWD):/code elixir_dojo bash`
+6. `cd workshop && cd labX`
+7. `mix test`
 
 You should be able to work in your local root/workshop dir using your favourite editor.
